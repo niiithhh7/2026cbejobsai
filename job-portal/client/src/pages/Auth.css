@@ -1,0 +1,7 @@
+.auth-wrap { display: flex; justify-content: center; padding: 64px 16px; }
+.auth-card { width: 100%; max-width: 400px; padding: 32px; }
+.auth-card h2 { margin-top: 0; }
+.auth-form { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
+.auth-form input { border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+.auth-switch { margin-top: 16px; font-size: 14px; text-align: center; }
+.auth-error { color: #dc2626; font-size: 14px; margin-top: 10px; }

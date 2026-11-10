@@ -1,0 +1,25 @@
+
+# Frontend dependencies
+client/node_modules/
+# Backend dependencies
+server/node_modules/
+# Environment secrets
+server/.env
+.env
+client/.env
+client/.env.*
+server/.env.*
+!.env.example
+!server/.env.example
+# Build files
+client/dist/
+client/build/
+# Logs
+*.log
+npm-debug.log*
+# System files
+.DS_Store
+Thumbs.db
+# Editor files
+.vscode/
+.idea/

@@ -1,0 +1,7 @@
+.employer-card { padding: 24px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.employer-logo { width: 64px; height: 64px; border-radius: 50%; background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 26px; overflow: hidden; }
+.employer-logo img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+.employer-name { font-weight: 700; font-size: 16px; }
+.employer-location { color: var(--muted); font-size: 13px; }
+.employer-openjobs { margin-top: 4px; }
+.employer-view { margin-top: 10px; width: 100%; }

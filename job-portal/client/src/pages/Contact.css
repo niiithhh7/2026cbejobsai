@@ -1,0 +1,11 @@
+.contact-map { width: 100%; height: 280px; border: 0; border-radius: var(--radius); margin-bottom: 24px; }
+.contact-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 32px; }
+.contact-card { padding: 24px; text-align: center; }
+.contact-card span { font-size: 24px; }
+.contact-form-wrap { padding: 32px; max-width: 640px; margin: 0 auto; }
+.contact-form { display: flex; flex-direction: column; gap: 12px; }
+.contact-form input, .contact-form textarea { border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+
+@media (max-width: 800px) {
+  .contact-cards { grid-template-columns: 1fr; }
+}

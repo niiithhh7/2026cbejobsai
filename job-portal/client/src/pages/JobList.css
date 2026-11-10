@@ -1,0 +1,15 @@
+.joblist-layout { display: grid; grid-template-columns: 260px 1fr; gap: 28px; align-items: start; }
+.joblist-sidebar { padding: 20px; display: flex; flex-direction: column; gap: 8px; position: sticky; top: 88px; }
+.sidebar-header { display: flex; gap: 8px; margin-bottom: 12px; }
+.sidebar-header .btn { flex: 1; padding: 8px; font-size: 13px; }
+.joblist-sidebar label { font-weight: 600; font-size: 13px; margin-top: 10px; }
+.joblist-sidebar input, .joblist-sidebar select { border: 1px solid var(--border); border-radius: 8px; padding: 9px; }
+.checkbox-row { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+.joblist-toolbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; font-weight: 600; }
+.joblist-toolbar select { border: 1px solid var(--border); border-radius: 8px; padding: 8px; }
+.joblist-message { background: #e5edfc; color: var(--blue); padding: 10px 14px; border-radius: 8px; margin-bottom: 16px; }
+
+@media (max-width: 900px) {
+  .joblist-layout { grid-template-columns: 1fr; }
+  .joblist-sidebar { position: static; }
+}
